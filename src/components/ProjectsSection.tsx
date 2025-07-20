@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 
 const ProjectsSection = () => {
   const projects = [
+    // Real GitHub Projects
     {
       id: 1,
       name: "Terraform Static Web Host on AWS",
@@ -50,6 +51,34 @@ const ProjectsSection = () => {
       category: "DevOps",
       githubUrl: "https://github.com/alisy404/Kubernetes_project",
       featured: true
+    },
+    // Additional Portfolio Projects
+    {
+      id: 6,
+      name: "Jenkins-Powered CI/CD Workflow for Microservice App",
+      description: "Implemented a Jenkins-powered CI/CD workflow that automated deployment processes for a microservice application, reducing deployment time by 40% and ensuring seamless integration with Docker and GitHub.",
+      techStack: ["Jenkins", "Docker", "GitHub", "CI/CD", "Microservices"],
+      category: "DevOps",
+      githubUrl: "https://github.com/alisy404",
+      featured: true
+    },
+    {
+      id: 7,
+      name: "AWS Static Website Hosting",
+      description: "Hosted a static website using S3 and configured infrastructure with EC2, VPC and Beanstalk. Explored RDS for potential dynamic features.",
+      techStack: ["AWS", "S3", "EC2", "VPC", "Beanstalk", "RDS"],
+      category: "Cloud",
+      githubUrl: "https://github.com/alisy404",
+      featured: false
+    },
+    {
+      id: 8,
+      name: "Python-Based Projects",
+      description: "Developed tools like Password Generator, WPM Counter, and Snake & Ladder game, refining automation and problem-solving abilities.",
+      techStack: ["Python", "Automation", "Game Development"],
+      category: "Development",
+      githubUrl: "https://github.com/alisy404",
+      featured: false
     }
   ];
 
