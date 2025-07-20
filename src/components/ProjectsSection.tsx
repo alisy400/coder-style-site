@@ -8,38 +8,47 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      name: "Jenkins-Powered CI/CD Workflow for Microservice App",
-      description: "Implemented a Jenkins-powered CI/CD workflow that automated deployment processes for a microservice application, reducing deployment time by 40% and ensuring seamless integration with Docker and GitHub.",
-      techStack: ["Jenkins", "Docker", "GitHub", "CI/CD", "Microservices"],
-      category: "DevOps",
-      githubUrl: "https://github.com/alisy404",
+      name: "Terraform Static Web Host on AWS",
+      description: "In this project, I hosted a static website on AWS using Terraform and HTML, demonstrating infrastructure as code practices for cloud deployment.",
+      techStack: ["Terraform", "AWS", "HCL", "Infrastructure as Code"],
+      category: "Cloud",
+      githubUrl: "https://github.com/alisy404/Terraform--static-web-host-on-aws",
       featured: true
     },
     {
       id: 2,
-      name: "AWS Static Website Hosting",
-      description: "Hosted a static website using S3 and configured infrastructure with EC2, VPC and Beanstalk. Explored RDS for potential dynamic features.",
-      techStack: ["AWS", "S3", "EC2", "VPC", "Beanstalk", "RDS"],
-      category: "Cloud",
-      githubUrl: "https://github.com/alisy404",
+      name: "Docker Notes App using REST API",
+      description: "The notes-rest-api is a multi-service Node.js application using Docker Compose with two backend services (notes and notebooks) built on Express.js and MongoDB. Features multi-stage Dockerfiles for optimized builds.",
+      techStack: ["Docker", "Node.js", "Express.js", "MongoDB", "REST API", "Docker Compose"],
+      category: "DevOps",
+      githubUrl: "https://github.com/alisy404/DOCKER-notes-app-using-restapi.",
       featured: true
     },
     {
       id: 3,
-      name: "Python-Based Projects",
-      description: "Developed tools like Password Generator, WPM Counter, and Snake & Ladder game, refining automation and problem-solving abilities.",
-      techStack: ["Python", "Automation", "Game Development"],
-      category: "Development",
-      githubUrl: "https://github.com/alisy404",
-      featured: false
+      name: "Terraform AWS Infrastructure",
+      description: "This is a basic Terraform-based project where I deployed AWS resources purely using Terraform. A ready-to-go project demonstrating how infrastructure can be managed efficiently through code.",
+      techStack: ["Terraform", "AWS", "HCL", "Cloud Infrastructure"],
+      category: "Cloud",
+      githubUrl: "https://github.com/alisy404/Terraform-AWS-Infrastructure",
+      featured: true
     },
     {
       id: 4,
-      name: "Kubernetes Deployment",
-      description: "Deployed mongoexpress and mongo-yaml on a local host, enabling online request handling and dataset retrieval. Strengthened understanding of container orchestration and system scalability.",
-      techStack: ["Kubernetes", "MongoDB", "YAML", "Container Orchestration"],
+      name: "Docker Key-Value App using REST API",
+      description: "Key-Value REST API: A RESTful API for key-value management built with Node.js, Express.js, MongoDB, and Docker for containerized deployment.",
+      techStack: ["Docker", "Node.js", "Express.js", "MongoDB", "REST API"],
       category: "DevOps",
-      githubUrl: "https://github.com/alisy404",
+      githubUrl: "https://github.com/alisy404/DOCKER_PROJECT--Key-value-app-using-REST-API",
+      featured: false
+    },
+    {
+      id: 5,
+      name: "Kubernetes Project",
+      description: "In this repository, I have created some small to large scale projects to showcase my proficiency in different Kubernetes tools and container orchestration.",
+      techStack: ["Kubernetes", "Container Orchestration", "DevOps"],
+      category: "DevOps",
+      githubUrl: "https://github.com/alisy404/Kubernetes_project",
       featured: true
     }
   ];
